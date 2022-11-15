@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shakespear", "Shakespear\Shakespear.csproj", "{B1EBC832-413A-4C44-8DE0-CB5EE4467AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EBC832-413A-4C44-8DE0-CB5EE4467AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EBC832-413A-4C44-8DE0-CB5EE4467AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EBC832-413A-4C44-8DE0-CB5EE4467AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EBC832-413A-4C44-8DE0-CB5EE4467AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4433A86-A51C-4977-9C79-C91AE9CCAA74}
+	EndGlobalSection
+EndGlobal
