@@ -1,3 +1,5 @@
+using Umbraco.Cms.Core.Notifications;
+
 namespace Shakespear
 {
     public class Startup
@@ -33,6 +35,7 @@ namespace Shakespear
                 .AddBackOffice()
                 .AddWebsite()
                 .AddComposers()
+                .AddNotificationAsyncHandler<ContentPublishedNotification, JustShootMe>()
                 .Build();
         }
 
