@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Playwright;
 using Microsoft.Playwright.NUnit;
 
 namespace Sophocles
@@ -24,6 +25,12 @@ namespace Sophocles
         {
             await _host.StopAsync();
         }
+
+        public override BrowserNewContextOptions ContextOptions() =>
+            new BrowserNewContextOptions()
+            {
+                RecordVideoDir = "../../../Videos"
+            };
 
         private static IHostBuilder CreateHostBuilder()
         {
@@ -50,6 +57,7 @@ namespace Sophocles
                     webHostBuilder.UseStartup<Shakespear.Startup>();
                 });
         }
+
 
     }
 }
